@@ -1,0 +1,131 @@
+@charset "UTF-8";
+#i1 {
+	font-size: 2vw; color: #000000; background-color: #ffffff; text-align: left; padding: 1px; margin: 1px; font-size: 70px;
+	 background-color: #000000; color: #ffffff;
+}
+#i2 {
+	float: left; width: 70px; height: 69.4px; border: 2px solid black; border-width: 4px; border-radius: 75px; border-collapse: separate;
+	max-width: 5.1vw; height: auto;
+}
+#i6:link, #i6:visited {
+	float: right;
+	font-size: 1.5vw;
+	background-color: red;
+	border: 2px solid pink;
+	font-family: Lucida Sans Unicode;
+	text-decoration: none; text-align: center;
+	padding: 7px 15px;
+	display: block;
+	color: white;
+	margin: 15.5px
+}
+#i6:hover, #i6:active {
+	background-color: black;
+	color: red;
+}
+ul#i5 {
+	list-style-type: none;
+	padding: 1px;
+	margin: 20px;
+	background-color: rgba(107,42,145,0.9);
+	overflow: hidden;
+}
+li#i3 {
+	float: left;
+}
+li#i4 {
+	float: right;
+}
+li#i3 a, li#i4 a {
+	color: rgb(155,200,255);
+	display: block;
+	padding: 0.59vw;
+	margin: 0.2vw;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5vw;
+}
+li#i3 a:hover, li#i4 a:hover {
+	background-color: hsla(122,33%,76%,0.8);
+	color: white;
+	font-size: 1.2vw;
+	font-family: script;
+	text-decoration: none;
+}
+#i7 {
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	border-spacing: 5px;
+	background-color: #eee;
+    border-collapse: 1px black;
+}
+table#i7 tr:nth-child(even) {
+ background-color: #eee;
+}
+table#i7 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#i7 th {
+ color: white;
+ background-color: black;
+}
+#i8 {
+	font-family: Segoe Print;
+	background-image: url("pc.jpg");
+	max-width: 100%;
+	height: auto;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px black;
+    border-radius: 15px;
+}
+#i9 {
+		font-family: Sitka Small;
+        background-color: green;
+        font-size: 20px
+        text-decoration: none;
+        border: 1px solid black;
+	border-radius: 12px;
+	}
+#i10:link, #i10:visited {
+	text-align: center;
+	font-size: 20px;
+	background-color: green;
+	font-family: Sitka Small;
+	text-decoration: none;
+	padding: 11px 20px;
+	display: block;
+	color: white;
+	margin: 10px;
+	border: 1px green;
+	border-radius: 15px;
+}
+#i10:hover, #i10:active {
+	background-color: #ffffff;
+	color: green;
+}
+#i11:link, #i11:visited {
+	text-decoration: none;
+	color: white;
+}
+#i11:hover, #i11:active {
+	color: white;
+}
+.left, .right {
+ float: left;
+ width: 20%; /* The width is 20%, by default */
+}
+.main {
+ float: left;
+ width: 60%; /* The width is 60%, by default */
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+ .left, .main, .right {
+ width: 100%; /* The width is 100%, when the viewport is 800px or
+smaller */
+ }
+}

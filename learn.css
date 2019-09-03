@@ -1,0 +1,142 @@
+#by-harsh{
+			text-align: center;
+			background-color: darkturquoise;
+			color: white;
+			padding: 12px;
+		}
+
+#harsh1{text-align: center;
+	color: solid yellow;
+	font-size: 250%;
+	background-color: #f3cd7a;
+	border: 3px solid green;
+	font-family: segoe script;
+
+}
+#p05{
+	font-size: 125%;
+	margin: 50px; 
+	padding: 30px;
+	background-image:url("pc.jpg");
+	color: white;
+}
+#link1{
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+#link1:visited{
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+#link1:hover{
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+}
+#link1:active{
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#link2:link, #link2:visited{
+	background-color: hsla(153,85%,35%,1.0);
+	padding: 10px 20px;
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	display: ruby;
+}
+#link2:hover, #link2:active{
+	background-color: green;
+	color: #ffffff;
+}
+#link3:link, #link3:visited{
+	background-color: black;
+	color: rgba(213,250,177,0.8);
+	padding: 10px 17px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: blink;
+}
+#link3:hover, #link3:active{
+	background-color: #fa5d07;
+	color: #a2e05c;
+
+}
+#tbl1, #tbl2, #tbl3{
+	border: 1px solid black;
+	padding: 15px;
+	text-align: center;
+	border-spacing: 5px
+	background-color: #fde2a5;
+	border-collapse: 1px black;
+}
+table#tbl2 tr:nth-child(even) {
+ background-color: #eee;
+}
+table#tbl2 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#tbl2 th {
+ color: white;
+ background-color: black;
+}
+table#tbl3 tr{
+	background-color: #c06fd4
+}
+
+table#tbl3 th{
+	background-color: hsla(145,66%,22%,0.8);
+	color: #afff6a;
+}
+ul#lst1 {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333333;
+}
+li#lst1 {
+ float: left;
+}
+li#lst1 {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 16px;
+ text-decoration: none;
+}
+li#lst1:hover {
+ background-color: #111111;
+}
+ul#list1 {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333333;
+}
+li#list1 {
+ float: left;
+}
+li#list1 a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 5px;
+ text-decoration: none;
+}
+li#list1 a:hover {
+ background-color: #111111;
+}
+<style>
+#city {
+	background-color: black;
+	color: #ffffff;
+	margin: 20px;
+	padding: 20px;
+}
+</style>

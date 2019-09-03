@@ -1,0 +1,38 @@
+<script type="text/javascript" language="javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="ABA Site4.js"></script>
+<script src="ABA Site3.js?dt=22082019"></script>
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="ABA Site2.css?dt=22082019">
+
+
+<div class="ProgramPlayer-wrapper">
+   <div>
+      Mode 
+      <select class="ProgramPlayer-Mode">
+         <option value="1">Reading</option>
+         <option value="2">Comparing</option>
+      </select>
+   </div>
+   <div>Presentation Time: <input type="text" class="presentationTimeInput"></div>
+   <div class="spinner-wrapper">Number of Letters: <input type="text" id="spinnerNumberOfLettersInput"/></div>
+   <div>Words frequency between <span class="sliderStartRange"></span> to <span class="sliderEndRange"></span></div>
+   <div class="slider-range-wrapper">
+      <div id="slider-range"></div>
+   </div>
+   <div class="ProgramPlayer-display-background">
+      <div class="ProgramPlayer-display-wrapper">
+         <div class="ProgramPlayer-display-innerwrapper">
+            <div class="ProgramPlayer-box">
+               <div class='ProgramPlayer-display'></div>
+               <a class="ProgramPlayer-Play" href="javascript:void(0)"><img src="/style library/icons/PlayButton.png" alt="Play"></a>
+               <a href="javascript:void(0)" class="closeFullScreen"><img src="/style library/icons/FullScreenCollapsed.png"></a>
+               <a href="javascript:void(0)" class="openFullScreen"><img src="/style library/icons/FullScreen.png"></a>
+               <a href="javascript:void(0)" class="comparing-Left">Left</a>
+               <a href="javascript:void(0)" class="comparing-Right">Right</a>
+            </div>
+         </div>
+         <a href="javascript:void(0)" class="SlideNext"><img src="/style library/icons/NextSlide.png"></a>
+         <div class="ms-clear"></div>
+      </div>
+   </div>
+</div>

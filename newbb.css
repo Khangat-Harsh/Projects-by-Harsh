@@ -1,43 +1,52 @@
+.logo{color: #ccc777; font-family: Small Fonts; padding: 26px; margin: 5px;}      
+.sub-head{float: right;font-size: 20px; padding: 19px;margin: 2px;font-family: Segoe Script;}
+.head-up{padding-top: 11px;}
 ul{
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: #333333;
-}
-li{
+	margin: 0px;
+	padding: 5px;}
+li.left-list{
 	float: left;
 }
+li.right-list{
+	float: right;}
 li a {
 	display: block;
-	color: white;
-	padding: 20px;
+	color: black;
+	padding: 16px;
 	text-align: center;
 	text-decoration: none;
-	background-color: #111fff
+	background-color: #dddddd;
+	margin: 0;
+	overflow: hidden;
 }
 li a:hover {
   background-color: #111111;
+  text-decoration: none;
+  color: white;
 }
 
 
 
 .pic1{
 	float: left;
-	border-radius: 3px;
-	padding-right: 6px
-}
+	border-radius: 5px;
+	padding-right: 6px;}
+
 .ccc{
-	margin-top: 50px;
+	margin-top: 57px;
 }
 .vk{
 	font-size: 40px;
+	padding: 15px;
 }
 .ind{
 	font-size: 24px;
+	color: #888888;padding: 15px;
 }
 
 table {
-	width: 50%;
+	width: 100%;
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
 	font-size: 14px;
@@ -53,8 +62,11 @@ td, th {
 }
 
 .caption{
-	float: left;
-	font-size: 18px;
-	padding: 2px;
-	margin: 2px
+	padding: 11px;margin:8px; padding-top: 11px;
 }
+.lio{padding: 5px; background-color: #32a893;color: white;margin: 11px;text-align: center;font-family: Sitka Subheading;border-top-left-radius: 18px;border-bottom-right-radius: 18px;}
+.life-vk{max-width: 23%; padding: 11px; padding-top: 10px;background-color: #f7f5f5;font-size: 14px;margin: 8px;height: 425vw;}
+.runs{float: right;padding: 5px;margin:25px;width: 73%}
+#footer{background-color: #5e5c5c;color: white;text-align: left;}
+.company{padding-right: 33px}
+.last{float: left;}

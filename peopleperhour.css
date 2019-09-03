@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#i1{
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+#i2{
+	margin: 10px;
+	padding: 10px;
+	max-width: 15vw;
+}
+#i3 .c1{
+	width: 2px;
+	height: 2px;
+float: right;
+}
